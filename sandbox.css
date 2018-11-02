@@ -1,0 +1,257 @@
+body {
+    background-color: #F8F8F8;
+    color: #202223;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headerlogo {
+    width: 120px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.footerlogo {
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+    right: 50px;
+}
+
+.banner {
+    flex-basis: 100%;
+    background-color: #FFF;
+    font-weight: bolder;
+    font-size: 50px;
+    display: flex;
+    padding-left: 10%;
+    align-items: center;
+    height: 150px;
+    margin-bottom: 100px;
+    box-shadow: 0 3px 1px -1px gray;
+}
+
+.headertitle {
+    font-size: 50px;
+}
+
+.maincontent {
+    flex-basis: 60%;
+    line-height: 30px;
+    font-weight: lighter;
+    margin: auto;
+    letter-spacing: 1.7px;
+}
+
+.redirect {
+    text-decoration: none;
+    color: #202223;
+    font-weight: bold;
+}
+
+.redirect:hover {
+    text-decoration: none;
+    color: #E0E039;
+    font-weight: bold;
+}
+
+.slogan {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.subtitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+}
+
+.reflex {
+    color: #E0E039;
+    padding-left: 70px;
+}
+
+.reflex2 {
+    color: #E0E039;
+}
+
+.policeblue {
+    color: #011521;
+}
+
+.navigation {
+    z-index: 1;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #202223;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    transition: .3s;
+}
+
+.navigation li a:hover:not(.active) {
+    color: #E0E039;
+}
+
+.navigation ul li {
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navigation ul ul {
+    display: none;
+
+}
+
+.navigation ul li:hover .dropcontent {
+    display: block;
+}
+
+.dropcontent {
+    align-content: center;
+    display: block;
+    position: absolute;
+    padding-top: 60px;
+}
+
+.dropcontent li {
+    padding: 10px;
+}
+
+.picture1 {
+    width: 100%;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active {
+    border-bottom: #E0E039 solid 1px;
+}
+
+.footer {
+    background-color: white;
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 70px;
+    font-size: 50px;
+    position: relative;
+}
+
+.footername {
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.footerdesc {
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top: 50px;
+    margin-left: -150px;
+}
+
+#privacy {
+    text-decoration: none;
+    color: #202223;
+    font-weight: normal;
+
+}
+
+.profile {
+    line-height: 10px;
+    margin-top: 50px;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.career {
+    font-weight: lighter;
+}
+
+.career1 {
+    font-weight: normal;
+}
+
+.tag {
+    background-color: #E0E039;
+    padding: 5px;
+    font-size: 15px;
+    width: 15%;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.table1 {
+    text-align: left;
+    border-collapse: collapse;
+    margin: 50px;
+    flex-basis: 40%;
+}
+
+.table1 tr th {
+    padding: 10px;
+    color: black;
+    border: 1px solid #202223;
+    text-align: center;
+    background-color: #E0E039;
+}
+
+.table1 tr:hover {
+    background-color: #011521;
+    color: white;
+}
+
+.table1 tr td {
+    padding: 10px;
+    border: 1px solid #202223;
+}
+
+.tableflex {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.employe {
+    border-left: #E0E039 2px solid;
+    padding-left: 10px;
+}
+
+.answer {
+    border-left: #E0E039 2px solid;
+    padding-left: 10px;
+}
+
+.faq {
+    font-weight: bold;
+    margin-top: 50px;
+}
